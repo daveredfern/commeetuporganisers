@@ -1,0 +1,36 @@
+// =============================================
+// Form
+// =============================================
+
+input,
+label {
+    display: block;
+    font-family: $base-font-family;
+}
+
+label {
+    margin-bottom: 0.4em;
+}
+
+input {
+	background-color: $white;
+	border: 2px solid #aaa;
+	border-radius: 0.25em;
+	padding: 0.5em 1em;
+	width: 100%;
+    font-size: 1em;
+
+	&:focus {
+		border-color: $blue;
+		outline: none;
+	}
+}
+
+
+// =============================================
+// Form field
+// =============================================
+
+// .form-field {
+//     margin-bottom: 1.618em;
+// }
