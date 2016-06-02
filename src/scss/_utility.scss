@@ -5,9 +5,9 @@
 .u-container {
     max-width: $screen-sm - 2em;
 
-    // &--lg {
-    //     max-width: $screen-md - 6em;
-    // }
+    &--lg {
+        max-width: $screen-md - 14em;
+    }
 
     @media(min-width: $screen-md) {
         width: 90%;
@@ -87,5 +87,20 @@
 
     > *:last-child {
         flex-shrink: 1;
+    }
+}
+
+
+// =============================================
+// Well
+// =============================================
+
+.u-well {
+    background-color: $white;
+    border-top: 2px solid $grey;
+    border-bottom: 2px solid $grey;
+
+    form {
+        margin: 8vh 5vw;
     }
 }

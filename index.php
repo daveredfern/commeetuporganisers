@@ -25,27 +25,26 @@
         <p>We think Birmingham is a good location. It’s central, good access to public transport and most importantly, lots of good places to eat! On that note, if you can recommend anywhere for food, let us know!</p>
         <p>We haven’t set a date yet. At this stage we’re just gauging interest. We’re thinking of creating a questionnaire with a few days and dates, the most popular wins.</p>
         <p>For now, we’ve created a little mailing list and we’ll be in touch soon. If all goes well, we can make this more regular &mdash; something to discuss on the evening.</p>
-        <p>So if you’re interested, sign up below and we’ll be in touch. If you know any other web meetup organisers feel free to pass this link on &mdash; the more the merrier!</p>
-        <p>Thanks,</p>
-        <p>Dave, Phil &amp; Natasha.</p>
-        <p>P.s. Is there an award for the most ridiculous domain name?</p>
     </div>
 
-    <div class="u-container u-section">
-        <hr />
-    </div>
-
-    <div class="u-container u-section">
-        <h2>Interested? Sign up to mailing list</h2>
+    <div class="u-well u-container u-container--lg u-section">
         <form action="https://tinyletter.com/meetuporganisers" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/meetuporganisers', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+            <h2>Interested? Sign up to mailing list</h2>
             <label for="tlemail">Enter your email address</label>
             <div class="u-flag">
-                <input type="text" name="email" id="tlemail" />
+                <input type="text" name="email" id="tlemail" placeholder="Your email address" />
                 <input type="submit" value="Subscribe" class="button" />
             </div>
             <input type="hidden" value="1" name="embed"/>
             <p class="micro">Of course, we won't share or spam your email</p>
         </form>
+    </div>
+
+    <div class="u-container u-section">
+        <p>If you know any other web meetup organisers feel free to pass this link on &mdash; the more the merrier!</p>
+        <p>Thanks and we'll be in touch soon.</p>
+        <p>Dave, Phil &amp; Natasha.</p>
+        <p class="micro">P.s. Is there an award for the most ridiculous domain name?</p>
     </div>
 
 </body>
