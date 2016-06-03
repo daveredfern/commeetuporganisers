@@ -33,7 +33,7 @@
             <label for="tlemail">Enter your email address</label>
             <div class="u-flag">
                 <input type="text" name="email" id="tlemail" placeholder="Your email address" />
-                <input type="submit" value="Subscribe" class="button" />
+                <button type="submit" class="button">Subscribe</button>
             </div>
             <input type="hidden" value="1" name="embed"/>
             <p class="micro">Of course, we won't share or spam your email</p>
